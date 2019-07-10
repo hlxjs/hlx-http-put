@@ -32,7 +32,7 @@ class HttpPutWriter {
       if (fs.existsSync(uri)) {
         remotePath = path.join(rootPath, path.basename(uri));
       } else {
-        remotePath = getPathFromUrl(uri);
+        remotePath = path.join(rootPath, getPathFromUrl(uri));
       }
     } else {
       remotePath = path.join(rootPath, getPath(uri));
