@@ -40,10 +40,10 @@ class HttpPutWriter {
 
     const url = createUrl(remotePath, endpoint).href;
 
-    print(`[POST] ${url}`);
+    print(`[PUT] ${url}`);
 
     return fetch(url, {
-      method: 'POST',
+      method: 'PUT',
       body: data,
       headers: {'Content-Type': mimeType}
     })
