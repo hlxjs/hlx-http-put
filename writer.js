@@ -8,9 +8,10 @@ const {getPathFromUrl, getPath, createUrl} = require('./util');
 const print = debug('hlx-http-put');
 
 class HttpPutWriter {
-  constructor({endpoint, rootPath = getPathFromUrl(endpoint)}) {
+  constructor({endpoint, rootPath = getPathFromUrl(endpoint), agent}) {
     this.endpoint = endpoint;
     this.rootPath = rootPath;
+    this.agent = agent;
     if (!path.isAbsolute(rootPath)) {
       rootPath = path.join('/', rootPath);
     }
@@ -45,7 +46,8 @@ class HttpPutWriter {
     return fetch(url, {
       method: 'PUT',
       body: data,
-      headers: {'Content-Type': mimeType}
+      headers: {'Content-Type': mimeType},
+      agent: this.agent
     })
     .then(() => url);
   }
