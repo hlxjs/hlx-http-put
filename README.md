@@ -47,7 +47,7 @@ Creates a new `TransformStream` object.
 | ----------- | ------ | ------- | --------------------------------- |
 | endpoint | string | N/A     | URL of the destination (webdav server endpoint) |
 | rootPath | string | The path included in `url` | Will be used when the playlist contains relative urls |
-
+| agent | http.Agent | undefined | Proxy agent |
 
 #### return value
 An instance of `TransformStream`.
