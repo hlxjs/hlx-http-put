@@ -49,15 +49,15 @@
     }
   },
   "dependencies": {
-    "ava": "^2.2.0",
     "debug": "^4.1.1",
-    "hls-parser": "^0.4.1",
+    "hls-parser": "^0.4.3",
     "node-fetch": "^2.6.0"
   },
   "devDependencies": {
-    "coveralls": "^3.0.4",
+    "ava": "^2.2.0",
+    "coveralls": "^3.0.5",
     "nyc": "^14.1.1",
-    "proxyquire": "^2.1.0",
+    "proxyquire": "^2.1.1",
     "sinon": "^7.3.2",
     "xo": "^0.24.0"
   }
