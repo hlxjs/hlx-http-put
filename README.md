@@ -2,6 +2,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/hlxjs/hlx-http-put/badge.svg?branch=master)](https://coveralls.io/github/hlxjs/hlx-http-put?branch=master)
 [![Dependency Status](https://david-dm.org/hlxjs/hlx-http-put.svg)](https://david-dm.org/hlxjs/hlx-http-put)
 [![Development Dependency Status](https://david-dm.org/hlxjs/hlx-http-put/dev-status.svg)](https://david-dm.org/hlxjs/hlx-http-put#info=devDependencies)
+[![Known Vulnerabilities](https://snyk.io/test/github/hlxjs/hlx-http-put/badge.svg)](https://snyk.io/test/github/hlxjs/hlx-http-put)
 [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)
 
 # hlx-http-put
